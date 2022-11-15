@@ -101,7 +101,7 @@ Muchos plugins de Gradle agregan configuraciones predefinidas al proyecto. Por e
 Las dependencias se declaran dentro del archivo `build.gradle`, dentro del apartado `dependencies { }` y existen distintos tipos de configuración que podemos usar para aplicarlas como las que podemos ver a continuación.
 
 | Configuración | Gradle Plugin | Comentarios | Descripcion |
-| :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | `api` | `java-library` | Anteriormente la deprecada `compile` desde Gradle 7+. | Expone las implementaciones de las librerías internas de esta dependencia, es decir, hacemos transitivas las librerías que componen la dependencia en cuestión. |
 | `implementation` | `java` | La opción más "segura" | Por su parte, esta configuración NO permite acceder a las implementaciones de las librerías internas de esta dependencia. Por ejemplo, si dependencia utiliza Hibernate para la implementación de su capa interna de persistencia, no podremos acceder desde nuestra aplicación.|
 | `testImplementation` | `java` | Extiende de `implementation`. Anteriormente la deprecada `testCompile` desde Gradle 7+. | Se utiliza para configurar las dependencias requeridas para compilar y ejecutar tests. Generalmente se utiliza el framework JUnit. |
