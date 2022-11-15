@@ -1,10 +1,10 @@
 # Notas sobre Gradle para framework jPOSv2
 
-🐜 Apache Ant
+🐜 Apache Ant<br>
 Ant es utilizado en jPOSv1 y es una herramienta que usada para estructurar y compilar o buildear proyectos JAVA.
 En su archivo más importante `build.xml` encontraremos como se describe el proceso de generación de ejecutable y sus dependencias.
 
-🐘 Gradle
+🐘 Gradle<br>
 Gradle es utilizado en jPOSv2 y es una herramienta open-source y multiplataforma, utilizada para estructurar y automatizar y estandarizar la construcción de proyectos de desarrollo en JAVA (y Kotlin, para Android). Esta está construida sobre los conceptos de Apache Ant y Apache Maven, y utiliza un lenguaje específico (DSL) basado en Groovy para definir configuraciones y gestionar dependencias.
 
 ## Archivo build.gradle
